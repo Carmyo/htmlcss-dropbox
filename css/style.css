@@ -149,6 +149,10 @@ h2 {
 
 /*Trial*/
 
+.sec-trial {
+    background-color: hsl(207deg 52% 81%);
+}
+
 .trial {
     background-color: hsl(207deg 52% 81%);
     display: flex;
