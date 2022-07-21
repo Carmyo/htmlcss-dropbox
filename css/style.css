@@ -113,16 +113,38 @@ h2 {
 
 .column {}
 
+
+
+
+
+
+
+
+
 /*Partner*/
 
 .img-partner {
-    max-width: 100%;
+    max-width: 40%;
+}
+
+.partner-description {
+    padding-left: 50px;
+    padding-right: 200px;
 }
 
 .partner {
+    background-color: white;
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    padding-top: 80px;
 }
+
+.partner-text {
+    padding: 30px;
+}
+
+
 
 /*Features*/
 
@@ -165,7 +187,7 @@ h2 {
 
 
 
-
+/*Review*/
 
 
 
@@ -195,7 +217,7 @@ h2 {
     padding-bottom: 80px;
 }
 
-.btn-trial {
+.btn-white {
     background-color: white;
     color: black;
     padding: 5px 30px;
