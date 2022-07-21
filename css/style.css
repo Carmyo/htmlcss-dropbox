@@ -38,7 +38,7 @@ header {
     position: fixed;
 }
 
-ul {
+.header-list {
     color: black;
     display: flex;
     flex-direction: row;
@@ -149,6 +149,35 @@ h2 {
 
 /*Footer*/
 
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 2%;
+    padding-bottom: 10%;
+}
+
 /*List*/
 
-.list {}
+footer {
+    background-color: black;
+    color: white;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 2%;
+    padding-bottom: 10%;
+    list-style-type: none;
+}
+
+.dropbox {}
+
+hr {
+    width: 100px;
+    margin-bottom: 50px;
+}
