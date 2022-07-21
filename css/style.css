@@ -72,7 +72,7 @@ h1 {
     display: flex;
 }
 
-p {
+.p-jumbo {
     padding-bottom: 50px;
     padding-top: 50px;
 }
@@ -90,3 +90,65 @@ p {
 
 
 /*Main*/
+
+.main-container {
+    width: 1200px;
+
+    margin: auto;
+}
+
+main section {
+    background-color: blueviolet;
+}
+
+h2 {
+    margin-top: 80px;
+}
+
+.offers {
+    display: flex;
+    justify-content: center;
+
+}
+
+.column {}
+
+/*Partner*/
+
+.img-partner {
+    max-width: 100%;
+}
+
+.partner {
+    display: flex;
+    flex-direction: row;
+}
+
+/*Features*/
+
+.img-features {}
+
+.features-container {
+
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*Discover*/
+
+/*Trial*/
+
+.trial {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/*Faq*/
+
+/*Footer*/
+
+/*List*/
+
+.list {}
