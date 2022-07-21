@@ -140,12 +140,32 @@ h2 {
 /*Trial*/
 
 .trial {
+    background-color: hsl(207deg 52% 81%);
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
 
+
 /*Faq*/
+
+
+.faq {
+    background-color: white;
+    margin-left: 435px;
+    margin-right: 435px;
+}
+
+.faq-content {
+    padding-bottom: 50px;
+}
+
+.hr-faq {
+    width: 100%;
+}
+
+
+
 
 /*Footer*/
 
@@ -164,6 +184,7 @@ footer {
     color: white;
     padding-left: 300px;
     padding-right: 300px;
+    padding-bottom: 40px;
 }
 
 .list {
@@ -174,8 +195,6 @@ footer {
     padding-bottom: 10%;
     list-style-type: none;
 }
-
-.dropbox {}
 
 hr {
     width: 100px;
