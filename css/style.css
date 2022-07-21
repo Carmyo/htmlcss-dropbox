@@ -8,3 +8,41 @@ body {
     font-family: sans-serif;
     background-color: #fff;
 }
+
+
+/*Debug*/
+
+/*Header*/
+
+
+/*Fixed*/
+header {
+    background-color: hsl(207deg 52% 81%);
+}
+
+.container-header-fixed {
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    position: fixed;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+}
+
+/*Jumbo*/
+.jumbo {
+    padding-top: 50px;
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+
+/*Main*/
