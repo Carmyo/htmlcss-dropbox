@@ -135,7 +135,32 @@ h2 {
     flex-wrap: wrap;
 }
 
+
+
+
+
+
+
+
+
+
 /*Discover*/
+.discover {
+    background-color: white;
+    padding-bottom: 80px;
+}
+
+.h2-discover {
+    padding-bottom: 40px;
+}
+
+.a-discover {
+    color: rgb(17, 0, 255);
+    text-decoration: underline;
+}
+
+
+
 
 
 
@@ -175,18 +200,6 @@ h2 {
     color: black;
     padding: 5px 30px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*Faq*/
 
